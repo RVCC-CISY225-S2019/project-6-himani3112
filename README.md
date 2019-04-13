@@ -27,5 +27,6 @@ You are going to have to download and add the files from your Project 5 into thi
 
 **You Must Have a Perfect Project 5 Repo. Make all changes to P5 before starting this project. Your grade depends on this. If you need help, ask me for help.**
 
-![file](https://user-images.githubusercontent.com/46976957/56082193-b78de580-5de3-11e9-82cb-248bc232be6d.png)
+![screensort1](https://user-images.githubusercontent.com/46976957/56082242-6a5e4380-5de4-11e9-8287-dcaa5155008c.png)
+
 ![Screenshot (1)](https://user-images.githubusercontent.com/46976957/56082195-b78de580-5de3-11e9-8f17-76596ca6f6af.png)
