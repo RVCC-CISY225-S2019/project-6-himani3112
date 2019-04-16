@@ -169,20 +169,34 @@
     <hr class="mobile-first">
     <!-- start of contact form -->
     <section id="contact" class="form-container">
-        <h1>Get in Touch</h1>
-        <br class="mobile-first"><br class="mobile-first">
-        <div>
-            <form>
+        <h1> Get in Touch </h1>
+        <form action="https://formspree.io/patelhimani404@gmail.com" method="POST">
+
+            <fieldset>
+                <legend> Please Feel Free to Contact Me </legend>
+                <label for="email">Email</label>
+                <br>
+                <input id="email" type="email">
+                <br><br><br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message" name="Message"></textarea>
+
+                <br><br><br>
                 <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-                    <br class="mobile-first"><br class="mobile-first">
-                    <p>
-                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
-                    </p>
-                    <br class="mobile-first"><br class="mobile-first">
+                    <legend>
+                        <label id="Yes_No_radio">I would like a reply</label>
+                    </legend>
+                    <input type="radio" name="Yes_No" checked>Yes
+                    <br><br>
+                    <input type="radio" name="Yes_No" checked>No
                 </fieldset>
-            </form>
-        </div>
+                <br><br>
+                <button type="submit">Send Message</button>
+
+            </fieldset>
+        </form>
+
     </section>
     <!-- end of contact form -->
     <!-- start of footer -->
@@ -214,6 +228,9 @@
                 symbolToggle.classList.add('fa-bars');
             }
         });
+
     </script>
     <!-- end of javascript for nav toggle -->
-</body></html>
+</body>
+
+</html>
